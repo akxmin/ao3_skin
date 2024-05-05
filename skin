@@ -998,6 +998,7 @@ input[type="submit"],
 button,
 .current,
 .actions label,
+dd.collections a,
 .listbox > .heading,
 .listbox .heading a:visited,
 form dd.required,
@@ -1024,7 +1025,6 @@ dd.pseuds a,
 div.bio.module a,
 div.userstuff ul a,
 dd.series a,
-dd.collections a,
 ul.series li a,
 .series.module li a,
 .children.module a,
@@ -1559,7 +1559,6 @@ dl.stats dd:not(.bookmarks) a[href$="bookmarks"]::before {
 }
 
 dd.pseuds a:hover,
-
 div.bio.module a:hover,
 .children.module a:hover,
 dd.series a:hover,
