@@ -1023,6 +1023,7 @@ ul.notes li::marker {
 div.userstuff ul a,
 dd.series a,
 ul.series li a,
+.series.module li a,
 .children.module a,
 div.notes.module a,
 .blurb h4.heading a:first-of-type,
