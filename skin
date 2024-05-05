@@ -671,7 +671,7 @@ input[type="checkbox"]:checked,
 input[type="radio"]:checked,
 .actions input[type="checkbox"]:checked,
 label.action input[type="checkbox"]:checked {
-  background-color: #fff;
+  background-color: #ed145b;
   border: none;
 }
 
@@ -1022,6 +1022,7 @@ ul.notes li::marker {
 
 div.userstuff ul a,
 dd.series a,
+dd.collections a,
 ul.series li a,
 .series.module li a,
 .children.module a,
@@ -1557,6 +1558,7 @@ dl.stats dd:not(.bookmarks) a[href$="bookmarks"]::before {
 
 .children.module a:hover,
 dd.series a:hover,
+dd.collections a:hover,
 ul.series li a:hover,
 div.notes.module a:hover,
 a.tag:hover,
