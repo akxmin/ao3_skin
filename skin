@@ -1020,6 +1020,8 @@ ul.notes li::marker {
   color: #fff;
 }
 
+dd.pseuds a,
+div.bio.module a,
 div.userstuff ul a,
 dd.series a,
 dd.collections a,
@@ -1556,6 +1558,9 @@ dl.stats dd:not(.bookmarks) a[href$="bookmarks"]::before {
   margin-right: 5px;
 }
 
+dd.pseuds a:hover,
+
+div.bio.module a:hover,
 .children.module a:hover,
 dd.series a:hover,
 dd.collections a:hover,
@@ -1570,6 +1575,7 @@ a.tag:visited:hover,
 .user.navigation.actions .dropdown a:hover,
 #dashboard a:hover,
 .blurb h4.heading a:hover,
+.pseud.blurb.group h4.heading a:hover,
 .own.work.blurb h4.heading a:hover,
 .series.blurb h4.heading a:hover,
 .bookmark.blurb h4.heading a:hover,
