@@ -1187,8 +1187,8 @@ ul.notes,
 .autocomplete .notice,
 #header h2.collections,
 #header h2 {
-  background-color: #000;
-  color: #fff;
+  background-color: #d1e1ef;
+  color: #000;
 }
 
 .notice a,
