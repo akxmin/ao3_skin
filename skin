@@ -1268,7 +1268,7 @@ li.comment,
 }
 
 p.required.notice {
-  color: #fff !important;
+  color: #000 !important;
 }
 
 form.search input[type="text"],
