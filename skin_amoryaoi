@@ -55,7 +55,7 @@ input,
 button,
 #main,
 select {
-  font-size: 0.9em;
+  font-size: 1em;
 }
 
 .home .header h2,
