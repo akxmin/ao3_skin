@@ -1,0 +1,1550 @@
+* {
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  text-shadow: none !important;
+  font-family:'Lucida Grande', 'Lucida Sans Unicode', Verdana, Helvetica, sans-serif, 'GNU Unifont'!important;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+input,
+textarea,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+dt{
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  /* AJUSTAR EN LA VERSION MOVIL */
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size:1.15em;
+}
+
+body,
+.dynamic form,
+.secondary,
+.dropdown {
+  margin: 0;
+  padding: 0;
+}
+
+.landmark {
+  font-size: 0;
+  opacity: 0;
+  height: 0;
+  width: 0;
+  padding: 0;
+}
+
+#inner{
+  max-width:1200px;
+  margin:auto;
+}
+
+a.link{
+  text-decoration:none;
+}
+
+/* FONDO TRANSPARENTE */
+
+#header .dropdown .menu a:hover,
+#header .dropdown .menu a:focus,
+#header .dropdown,
+#header .dropdown:hover,
+#header .dropdown:focus,
+.heading a.tag:hover, 
+.blurb .tags .freeforms a:hover,
+.work.navigation.actions .expandable, 
+.work.meta a:hover{
+  background:transparent;
+}
+
+/* COLOR OSCURO */
+
+body,
+.splash .favorite li:nth-of-type(even) a:visited,
+.splash .favorite li:nth-of-type(odd) a:visited, 
+.news .post h4 a:hover,
+.news .post h4 a:focus,
+.blurb .stats a:visited,
+.blurb .tags .freeforms a:visited,
+.work.meta dt.warning a:hover,
+.fandom.listbox .index a:visited{
+  color:#333433!important;
+}
+
+/* COLOR CLARO */
+
+#header a:hover,
+#header nav#greeting a:hover,
+#header nav#greeting a:focus,
+#header a:focus, 
+#header a,
+#header a:visited,
+#header .primary .open a,
+#header .primary .dropdown:hover a,
+#header .primary .dropdown a:focus,
+#header a,
+#header a:visited, 
+#header h1 a span:hover,
+#main.index .module h3,
+.splash .favorite li:nth-of-type(odd) a:hover,
+.splash .favorite li:nth-of-type(odd) a:focus,
+.splash .favorite li:nth-of-type(even) a:hover,
+.splash .favorite li:nth-of-type(even) a:focus,
+#main .module .heading .link a, 
+.blurb .tags .warnings a,
+.blurb .tags .warnings a:hover,
+.blurb .tags .warnings a:visited,
+.blurb .tags .warnings a:focus, 
+.blurb .tags .relationships a, 
+.blurb .tags .relationships a:hover,
+.blurb .tags .relationships a:focus,
+.blurb .tags .relationships a:visited, 
+.filters fieldset, 
+.filters .expander,
+.filters .expanded .expander,
+h2.heading a.tag,
+h2.heading a.tag:hover,
+h2.heading a.tag:focus,
+h2.heading a.tag:visited,
+.work.meta dd.warning a,
+.work.meta dd.warning a:hover,
+.work.meta dd.warning a:visited,
+.work.meta dd.warning a:focus,
+.work.meta a:hover,
+.work.meta a:focus,
+.work.meta .relationship a,
+.flash.notice,
+.listbox > .heading,
+.fandom.listbox .index a:hover,
+.fandom.listbox .index a:focus,
+#dashboard .current,
+.bookmark h5 a,
+.bookmark .user h5 a:hover,
+.bookmark .user h5 a:visited,
+.bookmark .user h5 a:focus,
+ fieldset > legend,
+.import fieldset > legend,
+.LV_invalid,
+.bookmark h5 a,
+.bookmark h5 a:hover,
+.bookmark h5 a:active,
+.bookmark h5 a:visited,
+.bookmark h5 a:focus{
+  color:#F8EEF1;
+}
+
+/* COLOR VERDE */
+
+a, 
+a:hover, 
+a:visited,
+a:focus,
+a.link,
+a.link:hover,
+a.link:visited,
+a.link:focus,
+.actions input:hover,
+.news .post .header h4 a,
+.news .post .header h4 a:visited,
+.blurb .header .heading a,
+.blurb .header .heading a:focus,
+.blurb .header .heading a:hover,
+.blurb .header .heading a:visited, 
+.blurb .tags .freeforms a:hover,
+.blurb .stats a,
+.blurb .stats a:hover,
+.blurb .stats a:focus,
+#workskin h2.title,
+#workskin a,
+#workskin a:hover,
+#workskin a:visited,
+#workskin a:focus,
+.kudos a,
+.kudos a:hover,
+.kudos a:visited,
+.kudos a:focus,
+.home .header h2,
+.notice a,
+.notice a:hover,
+.notice a:visited,
+.notice a:focus, 
+.actions a:hover,
+.actions a:focus{
+  color:#25806b;
+}
+
+/* COLOR ROJO */
+
+.required,
+.error,
+.alert.flash {
+  color:#C95C68;
+}
+
+/* FONDO CLARO */
+
+body,
+#main,
+.splash .favorite li:nth-of-type(odd) a,
+.comment fieldset,
+.bookmark .toggled form
+.bookmark .dynamic form,
+.bookmark form,
+.listbox,
+.listbox .index,
+fieldset,
+fieldset fieldset{
+  background-color:#F8EEF1;
+}
+
+/* FONDO VERDE*/
+
+#header,
+#header .dropdown-menu li:hover,
+#main.index .module h3,
+.splash .favorite li:nth-of-type(odd) a:hover,
+.splash .favorite li:nth-of-type(odd) a:focus,
+.splash .favorite li:nth-of-type(even) a:hover,
+.splash .favorite li:nth-of-type(even) a:focus, 
+.blurb .tags .relationships a, 
+.blurb .tags .relationships a:hover,
+.blurb .tags .relationships a:focus,
+.blurb .tags .relationships a:visited, 
+#footer a:hover,
+#footer a:focus, 
+.filters fieldset,
+h2.heading a.tag:hover,
+h2.heading a.tag:focus,
+.work.meta a:hover,
+.work.meta a:focus,
+.work.meta .relationship a,
+.flash.notice,
+.listbox > .heading,
+.fandom.listbox .index a:hover,
+.fandom.listbox .index a:focus,
+.bookmark .user h5 a, 
+.bookmark .user h5 a:visited
+.bookmark .user h5 a:focus,
+.bookmark .user h5 a:hover,
+ fieldset > legend,
+.import fieldset > legend,
+form.verbose legend{
+    background:#25806b;
+}
+
+/* FONDO NEGRO */
+
+#header nav#greeting ul.dropdown-menu,
+#header nav#greeting a.dropdown-toggle:hover,
+#header nav#greeting a.dropdown-toggle:focus,
+#header .user a:hover,
+#header .user a:focus,
+#header .actions a:hover,
+#header .actions a:focus,
+#header .dropdown:hover a,
+#header .open a,
+#header .menu,
+#header .dropdown:hover .current + .menu,
+#main .module .heading .link a:hover,
+#main .module .heading .link a:focus, 
+#footer, 
+input[type=checkbox]:hover,
+.actions input[type=checkbox]:hover, .filters [type=checkbox]:hover + .indicator:before,
+.filters [type=radio]:hover + .indicator:before,
+.filters .exclude [type=checkbox]:hover + .indicator:before, 
+.filters fieldset .heading,
+h2.heading a.tag,
+h2.heading a.tag:visited,
+#dashboard .current{
+  background:#333433;
+}
+
+/* FONDO ROJO */
+
+.blurb .tags .warnings a,
+input[type=checkbox]:checked,
+input[type=radio]:checked,
+.actions input[type=checkbox]:checked,
+label.action input[type=checkbox]:checked,
+.work.meta dd.warning a,
+.work.meta dd.warning a:hover,
+.work.meta dd.warning a:visited,
+.work.meta dd.warning a:focus {
+  background-color:#C95C68;
+}
+
+/* BORDE DEL TEXTO REQUIRED QUE ESTA EN FONDO VERDE */
+
+legend.required{
+  text-shadow:
+    -1px -1px 0 #F8EEF1,
+    1px -1px 0 #F8EEF1,
+    -1px 1px 0 #F8EEF1,
+    1px 1px 0 #F8EEF1,
+    -1px 0px 0 #F8EEF1,
+    1px 0px 0 #F8EEF1,
+    0px -1px 0 #F8EEF1,
+    0px 1px 0 #F8EEF1!important;
+}
+
+
+/* DISPLAY: NONE */
+
+#header h1 img,
+#header h1 sup,
+#main .module.social,
+.stats dd::after, 
+.stats dt:not(.skins .stats dt),
+.news .post .jump, 
+.readings .note,
+.blurb .tags li:after,
+.blurb .tags .characters {
+  display: none;
+}
+
+/* HEADER */
+
+#header h1 span {
+  visibility:collapse;
+}
+
+#header h1 span:before {
+  content:"AO3";
+  visibility:visible;
+  font-size:1.2em;
+  color:#F8EEF1;
+  margin-left:33px;
+  font-weight:bold;
+  letter-spacing:.2em;
+}
+
+#header nav#greeting {
+  margin-top:10px;
+}
+
+#header .menu li {
+  border-bottom:none!important;
+}
+
+#header .dropdown-menu,
+#header .dropdown-menu a {
+  padding:0;
+}
+
+#header ul.dropdown-menu li, 
+#header .dropdown-menu,
+#header .dropdown-menu a {
+  margin:0;
+}
+
+#header .dropdown-menu li:hover{
+  opacity: 1;
+}
+
+/*  BARRA DE NAVEGACION */
+
+#header nav .primary{
+  background:#333433;
+  padding:10px;
+}
+
+/* TITULOS DE LOS MODULOS */
+
+#main.index .module h3, 
+.listbox > .heading,
+fieldset > legend,
+.import fieldset > legend, 
+form.verbose legend{
+  font-variant:small-caps;
+  text-transform:lowercase;
+  text-align:center;
+  padding:10px;
+}
+
+#main.index .module h3,
+#main form.verbose > fieldset > legend{
+  font-size:2em;
+}
+
+#main form.verbose > fieldset > legend{
+  width:100%;
+}
+
+/* FAVORITOS */
+
+#main .favorite ul{
+  margin-top:10px;
+}
+
+/* LINKS AL LADO DEL ENCABEZADO */
+
+#main .module .heading .link{
+  margin-bottom:-30px;
+}
+
+#main .module .heading .link a{
+  border:none;
+  font-variant:none;
+  font-size:.4em;
+  padding:0;
+}
+
+ /* BLURBS DE NOTICIAS */
+
+.news .post {
+  padding:10px;
+}
+
+.news .post h4{
+  text-align:center;
+  margin: 10px 0px 10px 0px;
+  font-weight:bold;
+  text-transform:lowercase;
+}
+
+.news .post h4 a,
+.news .post .meta a {
+  border:none;
+}
+
+.news .post .meta{
+  text-align:center;
+  font-size:0.7em;
+  text-transform:uppercase;
+  font-variant:small-caps;
+  margin: 0px 0px 10px 0px;
+}
+
+.news .post .userstuff p{
+  text-align:justify;
+}
+
+.news .post .userstuff{
+  padding:0px 0px 10px 0px;
+  margin:0px 0px 10px 0px;
+  border-bottom:1px solid #25806b;
+}
+
+/* LEER MAS TARDE */
+
+.module.readings{
+  width:100%!important;
+  float:none!important;
+}
+
+/* BLURBS */
+
+/* GENERAL */
+
+li.blurb {
+  border:none;
+  padding:0px 0px 20px 0px;
+  border-bottom:1px solid #25806b;
+}
+
+/* BLURBS HEADER */
+
+.blurb .header{
+  margin:20px 0px 10px 0px!important;
+}
+
+.blurb .header .heading a{
+  border:none;
+}
+
+.blurb h4.heading a:first-of-type {
+  display: block;
+  font-weight:bold;
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+
+.blurb h5.fandoms{
+  font-size:0.9em;
+  margin:10px 0px 0px 0px!important;
+  letter-spacing:-0.7px;
+}
+
+.blurb .datetime{
+  top:0;
+  font-size:0.7em;
+  text-transform:uppercase;
+}
+
+.bookmark .datetime{
+  top:35px;
+}
+
+/* LOCK ALIGN */
+
+.blurb .header img, #workskin h2.heading img {
+  vertical-align: baseline;
+  border-radius: 3px;
+}
+
+/* TAGS */
+
+.blurb .tags{
+  font-size:0.95em;
+  letter-spacing:-0.5px;
+}
+
+.blurb .tags li{
+  line-height:1.7em;
+}
+
+.blurb .tags li a{
+  padding:2px 3px;
+  border:none;
+}
+
+/* STATS */ 
+
+.blurb .stats{
+  font-size:0.8em;
+  text-transform:uppercase;
+}
+
+.blurb .stats a{
+  border:none;
+  font-size:0.9em;
+}
+
+/* SUSTITUCION DE LEYENDA */ 
+
+p.kudos,
+.required-tags .rating-general-audience,
+.required-tags .rating-explicit,
+.required-tags .rating-mature,
+.required-tags .rating-teen,
+.required-tags .rating-notrated,
+.required-tags .category-femslash,
+.required-tags .category-gen,
+.required-tags .category-slash,
+.required-tags .category-het,
+.required-tags .category-multi,
+.required-tags .category-other,
+.required-tags .category-none,
+.required-tags .complete-no,
+.required-tags .complete-yes,
+.required-tags .warning-yes,
+.required-tags .warning-no,
+.required-tags .warning-choosenotto,
+.required-tags .external-work,
+.status .private .text,
+.status .public,
+.status .hidden,
+.status .rec,
+.status .count,
+.index .skins .icon,
+.index .mystery .icon,
+.index .tagset .icon,
+.comment .icon .anonymous,
+.comment .icon .visitor,
+.abbreviated .icon .anonymous,
+.abbreviated .icon .visitor,
+.skins .primary .icon,
+.admin .primary .icon,
+.tagset .primary .icon,
+img[src="/images/lockblue.png"],
+.collection.index .icon[src="/images/skins/iconsets/default/icon_collection.png"],
+.collection .icon img[src="/images/skins/iconsets/default/icon_collection.png"],
+a.rss span {
+  background-image: url(https://64.media.tumblr.com/eabd69ece68738566bfd14f8439fa339/2e27bac512d64383-4b/s1280x1920/69985a60fa70fa9f08f4b75275672677af04f7f6.png) !important;
+  background-size: 200px 735px !important;
+}
+
+img[src="/images/lockblue.png"],
+.collection .icon img[src="/images/skins/iconsets/default/icon_collection.png"],
+.collection.index .icon[src="/images/skins/iconsets/default/icon_collection.png"] {
+  width: 0 !important;
+  height: 0 !important;
+}
+
+img[src="/images/lockblue.png"] {
+  padding: 13px 0 0 15px;
+  background-position: -150px -300px;
+}
+
+.collection .icon img[src="/images/skins/iconsets/default/icon_collection.png"] {
+  padding: 100px 0 0 100px;
+  background-position: -100px -175px;
+}
+
+.collection.index .icon[src="/images/skins/iconsets/default/icon_collection.png"] {
+  padding: 55px 0 0 55px;
+  background-position: -55px -525px;
+}
+
+/* STATS ICONS */
+
+/* GENERAL */
+
+dl.stats {
+  margin-left: -0.25em;
+  margin-right: -0.25em;
+}
+
+/* STATS ICON SET UP */
+
+.stats dd:not(.skins .stats dd)::before {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  margin-bottom: -0.1em;
+  margin-right: 5px;
+  content: "";
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  background-position: center;
+  filter: invert(79%) sepia(0%) saturate(14%) hue-rotate(185deg) brightness(87%) contrast(87%); /* changes the color of the icons from black to gray */
+}
+
+/* STATS ICONS IMAGES */
+
+.stats dd.language::before {
+  background: url(https://images.squidge.org/images/2024/05/05/stats_icon_language_black.png);
+}
+
+.stats dd.words::before {
+  background: url(https://images.squidge.org/images/2024/05/05/stats_icon_words_black.png);
+}
+
+.stats dd.works::before,
+.stats dd:has(a[href$=works])::before /* works in collection */ {
+  background: url(https://images.squidge.org/images/2024/05/05/stats_icon_works_black.png);
+}
+
+.stats dd.chapters::before {
+  background: url(https://images.squidge.org/images/2024/05/05/stats_icon_chapters_black.png);
+}
+
+.stats dd.comments::before {
+  background: url(https://images.squidge.org/images/2024/05/05/stats_icon_comments_black.png);
+}
+
+.stats dd.kudos::before {
+  background: url(https://images.squidge.org/images/2024/05/05/stats_icon_kudos_black.png);
+}
+
+.stats dd.bookmarks::before {
+  background: url(https://images.squidge.org/images/2024/05/05/stats_icon_bookmarks_black.png);
+  margin-right: 2px !important; /* needs less space, as the icon is narrower than the others */
+}
+
+.stats dd.inspired::before {
+  background: url(https://images.squidge.org/images/2024/05/05/stats_icon_related-works_black.png);
+}
+
+.stats dd.hits::before {
+  background: url(https://images.squidge.org/images/2024/05/05/stats_icon_hits_black.png);
+}
+
+.stats dd.collections::before,
+.stats dd:has(a[href$=collections])::before /* subcollections*/ {
+  background: url(https://images.squidge.org/images/2024/05/05/stats_icon_collection_black.png);
+}
+
+.stats dd.published::before {
+  background: url(https://images.squidge.org/images/2024/05/05/stats_icon_published_black.png);
+}
+
+.stats dd.status::before {
+  background: url(https://images.squidge.org/images/2024/05/05/stats_icon_updated_black.png);
+}
+
+.series.meta.group .stats dd:nth-of-type(3)::before {
+  background: url(https://images.squidge.org/images/2024/05/05/stats_icon_complete_black.png);
+}
+
+.stats dd.subscriptions::before {
+  background: url(https://images.squidge.org/images/2024/05/05/stats_icon_subscriptions_black.png);
+}
+
+.statistics .stats dd.comments::before {
+  background: url(https://images.squidge.org/images/2024/05/05/stats_icon_comment-threads_black.png);
+}
+
+.stats dd:has(a[href$=fandoms])::before,
+.tagset .stats dd:nth-of-type(1)::before {
+  background: url(https://images.squidge.org/images/2024/05/05/stats_icon_fandoms_black.png);
+}
+
+.collection.blurb .stats dd:has(a[href$=bookmarks])::before  {
+  background: url(https://images.squidge.org/images/2024/05/05/stats_icons_bookmarked-items_black.png);
+}
+
+.stats dd:has(a[href$=requests])::before {
+  background: url(https://images.squidge.org/images/2024/05/05/stats_icon_promts_black.png);
+}
+
+.tagset .stats dd:nth-of-type(2)::before {
+  background: url(https://images.squidge.org/images/2024/05/05/stats_icon_characters_black.png);
+}
+
+.tagset .stats dd:nth-of-type(3)::before {
+  background: url(https://images.squidge.org/images/2024/05/05/stats_icon_relationships_black.png);
+}
+
+
+.tagset .stats dd:nth-of-type(4)::before {
+  background: url(https://images.squidge.org/images/2024/05/05/stats_icon_tags-additional_black.png);
+}
+
+.tagset .meta .stats dd:nth-of-type(4)::before {
+  background: url(https://images.squidge.org/images/2024/05/05/stats_icon_tags-freeform_black.png);
+}
+
+/* STATS HOVER TEXT */
+
+/* TOOLTIP */
+
+.stats dd::after {
+  position: absolute;
+  z-index: 99999;
+  margin: 2em 0 0 -4em;
+  padding: 0.3em;
+  border-radius: 0.25em;
+  border: 1px solid #67676c;
+  background: #f9f9fb;
+  color: #2a2a2a;
+  font-size: 0.85em;
+  line-height: 1em;
+  text-align: center;
+  word-break: break-word; 
+  white-space: normal;
+}
+
+.stats dd:hover::after {
+  display: inline-block;
+}
+
+.statistics .stats dd:last-of-type::after,
+.index .stats dd:last-of-type:has(a[href$=bookmarks])::after,
+.stats dd.inspired::after,
+.tagset .index .stats dd:last-of-type::after {
+  right: 0;
+}
+
+.stats dd.language::after {
+  content: "Language";
+}
+
+.stats dd.words::after {
+  content: "Words";
+}
+
+.stats dd.works::after,
+.stats dd:has(a[href$=works])::after /* works in collection */ {
+  content: "Works";
+}
+
+.stats dd.chapters::after {
+  content: "Chapters";
+}
+
+.stats dd.comments::after {
+  content: "Comments";
+}
+
+.stats dd.kudos::after {
+  content: "Kudos";
+}
+
+.stats dd.bookmarks::after {
+  content: "Bookmarks";
+}
+
+.stats dd.inspired::after {
+  content: "Related Works";
+}
+
+.stats dd.hits::after {
+  content: "Hits";
+}
+
+.stats dd.collections::after {
+  content: "Collections";
+}
+
+.stats dd.published::after {
+  content: "Published";
+}
+
+.stats dd.status::after {
+  content: "Updated";
+}
+
+.series.meta.group .stats dd:nth-of-type(3)::after {
+  content: "Complete";
+}
+
+.stats dd.subscriptions::after {
+  content: "Subscriptions";
+}
+
+.statistics .stats dd.comments::after {
+  content: "Comment Threads";
+}
+
+.stats dd:has(a[href$=fandoms])::after,
+.tagset .stats dd:nth-of-type(1)::after {
+  content: "Fandoms";
+}
+
+.tagset .stats dd:nth-of-type(2)::after {
+  content: "Characters";
+}
+
+.tagset .stats dd:nth-of-type(3)::after {
+  content: "Relationships";
+}
+
+.tagset .stats dd:nth-of-type(4)::after {
+  content: "Additional Tags";
+}
+
+.tagset .meta .stats dd:nth-of-type(4)::after {
+  content: "Freeforms";
+}
+
+.stats dd:has(a[href$=requests])::after {
+  content: "Prompts";
+}
+
+.collections-index .stats dd:has(a[href$=collections])::after {
+  content: "Challenges/Subcollections";
+}
+
+.collection.blurb .stats dd:has(a[href$=bookmarks])::after  {
+  content: "Bookmarked Items";
+}
+
+/* VECES LEIDO */
+
+.reading h4.viewed{
+  background:#eee;
+  padding:10px;
+  font-size:0.8em;
+  text-transform:uppercase;
+}
+
+/* BOTONES PLANOS */
+
+.actions a,
+.actions a:link,
+.action,
+.action:link,
+button,
+.current,
+.actions label {
+  border: none;
+  background-image: none;
+  box-shadow: none;
+  -webkit-appearance: none;
+}
+
+.actions input,
+input[type="submit"],
+textarea {
+  border: 1px solid;
+  background-image: none;
+  box-shadow: none;
+  -webkit-appearance: none;
+}
+
+input {
+  width: 96%;
+  border: 1px solid;
+  background-image: none;
+  box-shadow: none;
+}
+
+.actions input[type="checkbox"] {
+  -webkit-appearance: checkbox;
+  -moz-appearance: checkbox;
+}
+
+form.search input[type="text"] {
+  border-top-color: initial;
+}
+
+.actions a:hover,
+a:hover,
+.actions input:hover,
+#dashboard a:hover,
+.actions a:focus,
+.actions input:focus,
+#dashboard a:focus,
+.actions a:active,
+.current,
+a.current,
+.current a:visited,
+.actions a:hover,
+.actions input:hover,
+#dashboard a:hover,
+.actions a:focus,
+.actions input:focus,
+#dashboard a:focus,
+.actions a:active,
+.current,
+a.current,
+.current a:visited,
+#dashboard .current,
+.actions a:active,
+#outer .current,
+#header .current,
+a.current,
+.current a:visited,
+span.unread,
+.replied,
+span.claimed,
+dl.index dd,
+.own,
+.draft,
+.draft .unread,
+.child,
+.unwrangled,
+.unreviewed,
+.ui-sortable li:hover,
+#header .primary .menu .current {
+  border-color: initial;
+  box-shadow: none !important;
+}
+
+#header .primary,
+.group.listbox,
+fieldset fieldset.listbox,
+#main li.blurb,
+.wrapper,
+#dashboard .secondary,
+.secondary,
+form blockquote.userstuff,
+.thread .comment,
+.toggled form,
+#header .primary,
+.listbox .index,
+form .notice,
+form ul.notes,
+form.verbose legend,
+.verbose form legend,
+span.question,
+fieldset,
+form dl,
+fieldset dl dl,
+fieldset fieldset fieldset,
+fieldset fieldset dl dl,
+dd.hideme,
+form blockquote.userstuff,
+.delete a,
+span.delete,
+#header ul.primary {
+  box-shadow: none;
+}
+
+.notice,
+.comment_notice,
+ul.notes,
+.caution,
+.error,
+.comment_error,
+.alert.flash,
+.actions a:hover,
+.actions input:hover,
+.actions a:focus,
+.actions input:focus,
+label.action:hover,
+.action:hover,
+.action:focus,
+.notice,
+.comment_notice,
+ul.notes,
+.caution,
+.error,
+.comment_error,
+.alert.flash,
+.actions a:hover,
+.actions input:hover,
+.actions a:focus,
+.actions input:focus,
+label.action:hover,
+.action:hover,
+.action:focus {
+  border: none;
+  box-shadow: none;
+}
+
+.listbox .index,
+.dashboard .listbox .index,
+form .notice,
+form ul.notes,
+form.verbose legend,
+.verbose form legend,
+.actions a,
+.actions a:link,
+.action,
+.action:link,
+input[type="submit"],
+button,
+.current,
+.actions label {
+  border: none;
+  border-bottom: none;
+  background-image: none;
+  box-shadow: none;
+}
+
+#header .menu,
+#small_login,
+#header .dropdown:hover .current+.menu {
+  box-shadow: none;
+  background-image: none;
+  filter: none;
+}
+
+/* FOOTER */
+
+#footer{
+  background-image:none!important;
+}
+
+#footer h4.heading{
+  font-size:1.4em;
+  margin:0px 0px 10px 0px;
+  font-variant:small-caps;
+  text-transform:lowercase;
+}
+
+#footer a{
+  border:none;
+}
+
+/* PAGINACION */
+
+ol.pagination{
+  clear:both;
+}
+
+.dashboard ol.pagination{
+  clear:right;
+}
+
+/* FILTERS */
+
+.navigation.actions.module{
+  position:static;
+}
+
+.filters fieldset {
+  padding: 0px;
+  font-size:0.9em;
+}
+
+.filters fieldset label {
+  font-size:1em;
+}
+
+.filters fieldset input{
+  border:none!important;
+  width:100%;
+}
+
+.filters .expander,
+.filters .expanded .expander {
+  padding: 0px;
+  font-size: 1.05em;
+  background: none;
+  text-transform:uppercase;
+  margin:3px 0px;
+  font-weight:700;
+  letter-spacing:1px;
+}
+
+.filters .expander::before {
+  content: "➙";
+}
+
+.filters .expanded .expander::before {
+  content: "➘";
+}
+
+.filters input:checked + .indicator + span {
+  font-weight: inherit;
+}
+
+form dt{
+  border:none;
+}
+
+.filters [type=radio] + .indicator:before,
+.filters [type=radio]:checked + .indicator:before,
+.filters [type=checkbox] + .indicator:before,
+.filters .exclude [type=checkbox] + .indicator:before,
+.filters [type=checkbox]:checked + .indicator:before,
+.filters .exclude [type=checkbox]:checked + .indicator:before,
+input[type=checkbox],
+input[type=radio],
+input[type=checkbox]:checked,
+input[type=radio]:checked,
+.actions input[type=checkbox]:checked,
+label.action input[type=checkbox]:checked,
+input[type=checkbox]:hover,
+.actions input[type=checkbox]:hover {
+  width: 0.8em;
+  height: 0.8em;
+}
+
+input[type=radio] {
+  border-radius: 50%;
+}
+
+.filters [type=radio] + .indicator:before {
+  content: "";
+  vertical-align: -0.125em;
+  background: none;
+  background-color: #ebebeb;
+  border: none;
+}
+
+.filters [type=radio]:checked + .indicator:before {
+  content: "";
+  vertical-align: -0.125em;
+  background: none;
+  background-color: #d84549;
+  border: none;
+}
+
+.filters [type=checkbox] + .indicator:before,
+.filters .exclude [type=checkbox] + .indicator:before {
+  content: "";
+  padding: 0px;
+  border-radius: 0px;
+  vertical-align: -0.125em;
+  background: none;
+  background-color: #ebebeb;
+  border: none;
+}
+
+.filters [type=checkbox]:checked + .indicator:before,
+.filters .exclude [type=checkbox]:checked + .indicator:before {
+  content: "";
+  padding: 0px;
+  border-radius: 0px;
+  vertical-align: -0.125em;
+  background: none;
+  background-color: #d84549;
+  border: none;
+}
+
+.filters .exclude [type=checkbox]:checked + .indicator:before {
+  background-color: #bd203a;
+}
+
+input[type=checkbox],
+input[type=radio],
+.actions input[type=checkbox],
+label.action input[type=checkbox] {
+  background-color: #ebebeb;
+  border: 1px solid #25806b!important;
+}
+
+input[type=checkbox],
+input[type=radio],
+input[type=checkbox]:checked,
+input[type=radio]:checked,
+.actions input[type=checkbox]:checked,
+label.action input[type=checkbox]:checked,
+input[type=checkbox]:hover,
+.actions input[type=checkbox]:hover {
+  display: inline-block;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+input[type=checkbox]:checked,
+input[type=radio]:checked,
+.actions input[type=checkbox]:checked,
+label.action input[type=checkbox]:checked {
+  border: 1px solid #C95C68!important;
+}
+
+input[type=checkbox]:hover,
+.actions input[type=checkbox]:hover, .filters [type=checkbox]:hover + .indicator:before,
+.filters [type=radio]:hover + .indicator:before,
+.filters .exclude [type=checkbox]:hover + .indicator:before {
+  border: 1px solid #333433!important;
+}
+
+.filters dt {
+  min-width: auto;
+}
+
+.filters {
+  font-size: 90%;
+}
+
+fieldset dt.heading{
+  text-align:center;
+  margin:15px 0px 15px 0px;
+  padding:10px 0px 10px 0px;
+  width:100%;
+  text-transform:uppercase;
+  letter-spacing:1px;
+}
+
+h2.heading a.tag{
+  border:none;
+  padding:0px 5px;
+  font-weight:bold;
+}
+
+/* WORK */
+
+.work.navigation.actions .expandable{
+  border:none;
+}
+
+/* WORK META */
+
+.work.meta{
+  border:none;
+  font-size:0.95em;
+}
+
+.work.meta dt.warning{
+  font-weight:normal!important;
+}
+
+.work.meta dd.warning a{
+  padding:2px;
+}
+
+.work.meta a{
+  border:none;
+}
+
+.work.meta dd.tags{
+  letter-spacing:-1px;
+}
+
+#workskin h2.title{
+  font-size:2em;
+}
+
+#workskin h3.byline{
+  margin:10px 0px 10px 0px;
+}
+
+#workskin .summary h3.heading,
+#workskin .notes h3.heading{
+  padding:0px 0px 10px 0px;
+  font-variant:small-caps;
+  text-transform:lowercase;
+  border-bottom: 1px solid #25806b;
+}
+
+#workskin .summary h3.heading{
+  margin:50px 0px 0px 0px;
+}
+
+#workskin .userstuff{
+  padding:10px 0px 10px 0px;
+}
+
+#workskin .jump{
+  font-size:0.7em;
+  text-transform:uppercase;
+}
+
+#workskin a{
+  border:none;
+}
+
+.kudos a{
+  border:none;
+}
+
+/* COMENTARIOS */
+
+div.comment, li.comment {
+  border:none;
+}
+
+textarea{
+  border:none;
+}
+
+.bookmark .toggled form
+.bookmark .dynamic form,
+.bookmark form {
+  border:none;
+}
+
+.bookmark input[type="text"]{
+  border:none;
+  width:100%;
+}
+
+.bookmark input[type="radio"],
+.bookmark input[type="checkbox"]{
+  margin:0px;
+}
+
+
+.bookmark input[type="radio"] + label, 
+.bookmark input[type="checkbox"] + label{
+  padding:0px;
+}
+
+.bookmark form p{
+  padding:10px 0px 10px 0px;
+}
+
+/* NOTICE */
+
+.flash.notice{
+  margin:0px 0px 30px 0px;
+}
+
+/* PAGINAS DE USUARIO */
+
+.home .header h2{
+  font-size: 2em;
+  font-weight:bold;
+  border:none;
+}
+
+.listbox, fieldset fieldset.listbox{
+  border:2px solid #F8EEF1;
+}
+
+.listbox > .heading{
+  width:100%;
+  font-size:1.5em;
+}
+
+/* LISTA DE FANDOMS */
+
+.fandom.listbox .index a{
+  border: none;
+  line-height:1.8em;
+  padding:3px;
+}
+
+/* MENU */
+
+#dashboard.own{
+  border:none;
+}
+
+#dashboard ul{
+  border-top:1px solid #25806b;
+}
+
+#dashboard ul:first-of-type{
+  border:none;
+}
+
+#dashboard ul li{
+  text-transform:uppercase;
+  font-size:0.8em;
+}
+
+/* BOOKMARK */
+
+.bookmark .user{
+  border:1px solid #25806b;
+  font-size:1em;
+}
+
+.bookmark h5 a{
+  border:none!important;
+}
+
+.bookmark .user h5,
+.bookmark .user h5 a{
+  font-size:0.9em;
+}
+
+.bookmark .user h5{
+  font-variant:small-caps;
+  text-transform:lowercase;
+}
+
+.bookmark .user h5 a{
+  font-variant:none;
+  text-transform:none;
+}
+
+/* INVALID FIELD */
+
+.LV_invalid_field, input.LV_invalid_field:hover,
+input.LV_invalid_field:active,
+textarea.LV_invalid_field:hover,
+textarea.LV_invalid_field:active{
+  border: 1px solid #C95C68;
+}
+
+.LV_invalid::before {
+  border-color: #C95C68 transparent;
+  border-style: solid;
+  border-width: 0 0.643em 0.643em;
+  content: "";
+  left: 0.875em;
+  position: absolute;
+  top: -0.643em;
+}
+
+.LV_invalid {
+  background: #C95C68;
+  border: 1px solid #900;
+  padding: 0.25em 0.375em;
+}
+
+/* POSTEAR FIC */
+
+ fieldset.work input[type="checkbox"] + label{
+  padding-left:0;
+}
+
+ fieldset > legend,
+.import fieldset > legend, 
+form.verbose legend{
+  font-size:1.2em;
+  width:100%;
+}
+
+ fieldset.work input[type="text"],
+ fieldset.preface input[type="text"],
+ fieldset#associations input[type="text"]{
+  border:none;
+  width:100%;
+}
+
+ fieldset.work input[type="text"]:focus,
+ fieldset.preface input[type="text"]:focus,
+ fieldset.preface textarea:focus
+ fieldset#associations input:focus, input[type="text"]:focus{
+  background-color:#fff;
+}
+
+textarea:focus,
+input:focus{
+  background-color:#fff;
+}
+
+fieldset fieldset legend
+.import fieldset fieldset legend,
+form.verbose legend legend{
+  font-variant:none;
+  text-transform:none;
+  width:auto;
+  font-size:1em;
+}
+
+fieldset#associations dd, 
+fieldset#associations dt,
+.import fieldset dd,
+.import fieldset dt{
+  margin: 0.643em 0
+}
+
+fieldset dt, 
+fieldset dd {
+  text-align:left;
+  vertical-align:baseline;
+  padding:0px 5px 5px 0px;
+}
+
+dt.moderated,
+dt.restrict{
+  width:15px;
+  min-width:15px;
+  padding:0px 5px 5px 0px;
+}
+
+dt.permissions.comments{
+  display:block;
+  width:100%;
+}
+
+a, 
+a.link {
+  border:none!important;
+}
+
+/* COLLECTIONS */
+
+.picture .header{
+  border:none;
+}
